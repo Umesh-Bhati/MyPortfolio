@@ -1,0 +1,109 @@
+.certificaition {
+  height: auto;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.certification__image {
+  border-radius: 15px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.dark {
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 19, 20, 1) 0%,
+    rgba(34, 38, 43, 1) 59%,
+    rgba(49, 54, 59, 1) 100%
+  );
+}
+.certification__container {
+    margin: 2rem 0;
+}
+
+.certification__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  letter-spacing: .2em;
+  text-align: center;
+  margin: .5em 0;
+}
+.certification__icon {
+  border-radius: 50%;
+  background-color: white;
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.certification__icon:hover {
+  color: white;
+  background-color: #8549ba;
+  transform: scale(1.1);
+}
+
+.certification__provider__text {
+  font-size: 2rem;
+  color: white;
+  font-weight: 800;
+}
+.certification__providerContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.certification__providerContainer h3 {
+  font-size: 2rem;
+}
+
+.certified-title {
+    font-size: 4rem;
+
+}
+
+.certificationH2 {
+    margin-top: 1rem;
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 40%;
+    cursor: pointer;
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin: 1em 0;
+}
+
+.imgContainer:hover {
+    transform: scale(1.03);
+}
+
+@media only screen and (max-width: 768px) {
+  .certification__left {
+    align-items: center;
+    margin-right: 0;
+  }
+  .certification__title {
+      font-size: 2rem;
+  }
+
+  .certified-title {
+      font-size: 0;
+  }
+
+  .imgContainer {
+      width: 80%;
+  }
+}
+

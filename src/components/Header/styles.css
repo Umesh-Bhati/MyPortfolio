@@ -1,0 +1,102 @@
+.header {
+  display: flex;
+  font-family: "Fira Code", monospace;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em 0;
+  background:linear-gradient(
+    90deg,
+    rgba(18, 19, 20, 1) 0%,
+    rgba(34, 38, 43, 1) 59%,
+    rgba(49, 54, 59, 1) 100%
+  );
+  z-index: 99999;
+}
+
+.menuIcon {
+  display: none;
+}
+
+
+
+/* ###Nav Component Styles are started from here### */
+
+.nav {
+  flex: 0 1 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 1s ease-out;
+}
+
+.nav__item {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav__item:hover {
+   transform: scale(1.1);
+   color: var(--purple);
+}
+
+.nav__resumeBtn {
+  border: 2px var(--purple) solid ;
+  border-radius: .5em;
+  color: var(--purple);
+  padding: .25em .5em;
+}
+
+.nav__resumeBtn:hover {
+  color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+.menuIcon {
+  display: flex;
+  color: white;
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+}
+.menuIcon:hover,
+.menuIcon:focus {
+  transform: scale(1.1);
+  color: var(--purple);
+}
+
+
+.nav {
+  transition: all 1s ease-out;
+  clip-path: circle(0px at 90% -10%);
+  -webkit-clip-path: circle(0px at 90% -10%);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3em;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 19, 20, 1) 0%,
+    rgba(34, 38, 43, 1) 59%,
+    rgba(49, 54, 59, 1) 100%
+  );
+  top: 0;
+}
+
+.isActive {
+  clip-path: circle(1300px at 90% -10%);
+  -webkit-clip-path: circle(1300px at 90% -10%);
+  top: 0;
+}
+
+
+}
