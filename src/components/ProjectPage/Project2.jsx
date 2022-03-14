@@ -17,10 +17,8 @@ function Project2() {
             Food Delivery App
           </h3>
           <p className="project__description project__body">
-            A <span className="project__specialText">hackathon</span> project
-            for HackED 2021. Using a variety of commands you can retrieve
-            different <span className="project__specialText">Covid-19</span>{" "}
-            data including cases, test, and vaccines.
+            A <span className="project__specialText">Food Delivery App</span> project
+            for Demo Purpose only
           </p>
           <p className="project__tech project__body">
             &gt; React Native · React Native Reanimated · React Navigation
