@@ -12,13 +12,15 @@ export default function Footer() {
           href="https://github.com/Umesh-Bhati"
           className="social-icons"
           target={"_blank"}
+          rel="noreferrer"
         >
           <FaGithub size={30} />
         </a>
         <a
           className="social-icons"
           href="https://www.linkedin.com/in/umesh-bhati-b7b557207/"
-          target={"_blank"}
+          target="_blank"
+          rel="noreferrer"
         >
           <FaLinkedin size={30} />
         </a>
@@ -31,8 +33,8 @@ export default function Footer() {
         className="sourceCodeLink"
         href="https://github.com/Umesh-Bhati/MyPortfolio"
         target="_blank"
-        rel="noooper noreferrer"
         aria-label="Website GitHub Repository"
+        rel="noreferrer"
       >
         <FaGithub size={30} className="sourceCodeLink__github" />
         <h3>Check out the source code</h3>

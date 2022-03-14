@@ -17,6 +17,7 @@ export default function Certification({ img, title, brandName, href }) {
               href="https://about.udemy.com/"
               target="_blank"
               className="certification__icon"
+              rel="noreferrer"
             >
               <SiUdemy size={30} className="certification__icon" />
             </a>
@@ -25,13 +26,14 @@ export default function Certification({ img, title, brandName, href }) {
               href="https://www.freecodecamp.org/news/about/"
               target="_blank"
               className="certification__icon"
+              rel="noreferrer"
             >
               <FaFreeCodeCamp className="certification__icon" size={30} />
             </a>
           )}
         </div>
       </div>
-      <a className="imgContainer" href={href} target="_blank">
+      <a className="imgContainer" href={href} target="_blank" rel="noreferrer" >
         <img
           src={img}
           className="certification__image"
