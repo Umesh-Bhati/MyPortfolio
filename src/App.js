@@ -1,7 +1,6 @@
 import React from "react";
-import reactRouterHashLink from "react-router-hash-link";
 import { Header } from "./components/Header";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import LandingPage from "./components/LandingPage/LandingPage";
 import About from "./components/AboutMe/About";
 import ContactMe from "./components/ContactMe/ContactMe";

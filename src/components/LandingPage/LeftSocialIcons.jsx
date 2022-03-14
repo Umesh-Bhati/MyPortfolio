@@ -1,5 +1,5 @@
 import "./styles.css";
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin} from "react-icons/fa";
 
 function LeftSocialMediaIcons() {
   return (

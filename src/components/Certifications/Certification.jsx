@@ -5,7 +5,7 @@ import { FaFreeCodeCamp } from "react-icons/fa";
 
 export default function Certification({ img, title, brandName, href }) {
   return (
-    <article class="certificaition dark" id={brandName === "Udemy" ? "certifications" : ""} >
+    <article className="certificaition dark" id={brandName === "Udemy" ? "certifications" : ""} >
       {brandName === "Udemy" ? <h2 className="certificationH2" >Certifications</h2> : null}
       <div data-aos="fade-left" className="certification__container">
         <h3 className="certification__title">{title}</h3>
