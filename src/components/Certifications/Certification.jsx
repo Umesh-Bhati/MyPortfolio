@@ -40,6 +40,7 @@ export default function Certification({ img, title, brandName, href }) {
           width="100%"
           height="auto"
           data-aos="fade-right"
+          alt="umesh bhati certifications"
         />
       </a>
     </article>
