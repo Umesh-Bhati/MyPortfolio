@@ -42,7 +42,7 @@ export default function Nav({ clicked, setClicked }) {
       ))}
       <Link
         className="nav__item nav__resumeBtn"
-        to="/jack-parsons-resume.pdf"
+        to="/umesh_bhati-resume.pdf"
         target="_blank"
       >
         <h3>Resume</h3>
