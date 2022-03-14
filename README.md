@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="200" alt="personal brand logo" src="/images/Logo.png"/>
+  <img width="200" alt="personal brand logo" src="public\images\Logo.png"/>
 </div>
   
 # <p align="center">👋 Umesh Bhati Portfolio Website</div>
