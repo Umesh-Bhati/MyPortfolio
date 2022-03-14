@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="200" alt="personal brand logo" src="/images/Logo.png">
+  <img width="200" alt="personal brand logo" src="/images/Logo.png"/>
 </div>
   
 # <p align="center">👋 Umesh Bhati Portfolio Website</div>
@@ -13,7 +13,6 @@
 <br />
 <br />
 
-<img width="1440" alt="landing page" src="https://user-images.githubusercontent.com/62918090/131275573-0b989b43-492d-446e-b895-6ea79a9a8ad1.png">
 
 ---
 
