@@ -29,7 +29,7 @@ export default function Footer() {
 
       <a
         className="sourceCodeLink"
-        href="https://www.github.com/umesh-bhati"
+        href="https://github.com/Umesh-Bhati/MyPortfolio"
         target="_blank"
         rel="noooper noreferrer"
         aria-label="Website GitHub Repository"
