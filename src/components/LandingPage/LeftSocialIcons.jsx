@@ -6,7 +6,7 @@ function LeftSocialMediaIcons() {
     <div className="leftSocialMediaIcons">
       <hr className="leftSocialMediaIcons__mobileLeftBar mobile__hr" />
       <a
-        href="https://github.com/jackparsonss"
+        href="https://github.com/Umesh-Bhati/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my GitHub"
@@ -14,7 +14,7 @@ function LeftSocialMediaIcons() {
         <FaGithub className="leftSocialMediaIcons__github icon" size={50} />
       </a>
       <a
-        href="https://www.linkedin.com/in/jack-parsonss/"
+        href="https://www.linkedin.com/in/umesh-bhati-b7b557207/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my Linkedin"
