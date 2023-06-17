@@ -2,6 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { useMediaQuery } from "react-responsive";
 import LightWave from "../Waves/LightWave";
 import "./ProjectDark.css";
+import { DarkWave } from "../Waves";
 
 function Project2() {
 

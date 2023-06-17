@@ -14,11 +14,9 @@ export default function About() {
       <section data-aos="fade-right" className="paraSection">
         <h1>About Me</h1>
         <p className="paraSection__subLines" >
-          I am a self-taught Javascript developer with Udemy certified and
-          B.Tech student. I’ve always found Codding intuitive and have push
-          myself to learn the most effective ways to achieve a result. I’m deep
-          study learner and can quickly integrate into team so I can provide
-          value to the company and the customers.
+          Hello, I'm a hybrid mobile app and web developer specializing in React Native. With experience building projects
+          such as Uber clones, food delivery apps, and e-commerce websites, I've developed a deep understanding of what
+          it takes to create scalable and efficient applications using JavaScript, Node.js, MongoDB and Firebase.
           <br />
           You can reach out to me on my{" "}
           <NavHashLink className="about__specialText" smooth to="#contact">
@@ -30,7 +28,7 @@ export default function About() {
 
       <div className="About-img">
         <img
-          src="/images/UB.jpeg"
+          src="/images/Umesh1.png"
           alt="umesh bhati img"
           height={"100%"}
           width={"100%"}

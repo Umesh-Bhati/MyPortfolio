@@ -14,26 +14,25 @@
 
 .dark {
   color: white;
-  background: linear-gradient(
-    90deg,
-    rgba(18, 19, 20, 1) 0%,
-    rgba(34, 38, 43, 1) 59%,
-    rgba(49, 54, 59, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(18, 19, 20, 1) 0%,
+      rgba(34, 38, 43, 1) 59%,
+      rgba(49, 54, 59, 1) 100%);
 }
+
 .certification__container {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .certification__title {
   font-family: "Oswald", sans-serif;
   font-size: 3rem;
   margin-bottom: 0.5rem;
-  color: white;
   letter-spacing: .2em;
   text-align: center;
   margin: .5em 0;
 }
+
 .certification__icon {
   border-radius: 50%;
   background-color: white;
@@ -53,6 +52,7 @@
   color: white;
   font-weight: 800;
 }
+
 .certification__providerContainer {
   display: flex;
   flex-direction: row;
@@ -66,27 +66,26 @@
 }
 
 .certified-title {
-    font-size: 4rem;
-
+  font-size: 4rem;
 }
 
 .certificationH2 {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .imgContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: 40%;
-    cursor: pointer;
-    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-    margin: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 40%;
+  cursor: pointer;
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  margin: 0.5em 0 5rem;
 }
 
 .imgContainer:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 @media only screen and (max-width: 768px) {
@@ -94,16 +93,16 @@
     align-items: center;
     margin-right: 0;
   }
+
   .certification__title {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
   .certified-title {
-      font-size: 0;
+    font-size: 0;
   }
 
   .imgContainer {
-      width: 80%;
+    width: 80%;
   }
 }
-
