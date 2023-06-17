@@ -44,6 +44,7 @@ export default function App() {
           brandName={item.brandName}
           key={index.toString()}
           href={item.href}
+          index={index}
         />
       ))}
       <ContactMe />

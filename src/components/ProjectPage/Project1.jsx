@@ -10,7 +10,7 @@ function Project1({ id }) {
 
   return (
     <article id={id} className="project light">
-      <h2 className="project__header">Projects</h2>
+      <h2 className="project__header">Key Portfolio Projects</h2>
       <div className="project__main">
         <img
           className="project__image project__specialMobileImage"
