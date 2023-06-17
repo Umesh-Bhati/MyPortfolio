@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Projects from "./components/ProjectPage/Projects";
 import "./App.css";
 import Certification from "./components/Certifications/Certification";
+import { DarkWave, LightWave } from "./components/Waves";
 
 const certificationData = [
   {
